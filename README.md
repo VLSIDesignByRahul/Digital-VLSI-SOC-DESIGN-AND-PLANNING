@@ -143,6 +143,48 @@ cd openlane/
 docker
   ./flow.tcl -interactive
 ```
+![image](https://github.com/user-attachments/assets/45249382-11d7-44f1-b525-0f1fcfa4e886)
+
+## Now, OPENLANE is opened, and we input the required packages using the following command:
+```
+% package require openlane 0.9
+```
+In the 'designs' subdirectory, you will find various pre-built designs. For our purposes, we will focus on the "picorv32a.v" design to execute the RTL to GDS flow. The initial stage of this project involves synthesis. To begin the synthesis for this design, we need to set it up using the following command:
+
+```
+prep -design picorv32a
+```
+![image](https://github.com/user-attachments/assets/b88d10cc-c54d-41dc-84c3-b619e75d12f5)
+
+Once the preparation is finished, you'll notice a new directory named with today's date created inside the 'picorv32a' folder within the 'runs' directory.
+
+![image](https://github.com/user-attachments/assets/259b9c4a-9898-4a6f-8091-1dafa9e422de)
+
+### A new directory structure is created to organize design files, with subdirectories for components like results and reports.
+
+#### LEF Merging: The technology LEF (.tlef) and cell LEF (.lef) files are merged into a unified format, combining layer and cell information.
+
+#### Design Placement: All design-related files are placed under the designs directory for organization and easy access during subsequent steps.
+
+![image](https://github.com/user-attachments/assets/267dc9fd-abe3-4ed4-89c6-ef15f9f3d9b2)
+
+![image](https://github.com/user-attachments/assets/b14bc2c8-2ff0-4d9d-b30c-cd1a61d5520e)
+
+config.tcl - contains the configurations used by openLANE
+
+src - contains verilog files and constraints file
+
+![image](https://github.com/user-attachments/assets/604ce6fc-4137-4e9d-9c5d-a0a3d19d5654)
+
+## Now, To perform synthesis on the design use the following command :
+```
+% run_synthesis
+```
+![image](https://github.com/user-attachments/assets/5abcfe42-e771-4819-825e-b2d615713a01)
+
+
+
+
 
 
 
