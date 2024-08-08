@@ -135,6 +135,15 @@ cd Desktop
 cd work/tools/
 cd openlane_working_dir/
 cd openlane/
+```
+![image](https://github.com/user-attachments/assets/1382ae6e-6445-47b4-b600-699ae9c9cb94)
+
+## To enter into bash while being in the openalne dircetory use the following command
+```
+docker
+  ./flow.tcl -interactive
+```
+
 
 
 
