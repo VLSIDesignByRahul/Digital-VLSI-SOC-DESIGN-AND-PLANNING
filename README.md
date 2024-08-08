@@ -77,6 +77,58 @@ Definition: Contains files and information from semiconductor foundries describi
 ### Google Skywater 130nm PDK:
 Definition: An open-source PDK for the SkyWater 130nm process technology. Features: Includes libraries, design rules, and models specific to the 130nm technology node.
 
+# simplified RTL TO GDSII MODEL
+![image](https://github.com/user-attachments/assets/480062ed-1c64-45c9-86c9-1c555d1f4862)
+### RTL Design: 
+Create a high-level description of the circuit.
+### Synthesis: 
+Convert RTL code to a gate-level netlist.
+### Floorplanning and Power Planning: 
+Arrange blocks and plan power distribution.
+### Clock Tree Synthesis: 
+Design the clock distribution network.
+### Routing: 
+Connect the gates and flip-flops.
+### Signoff: 
+Verify design with DRC, LVS, and ERC.
+### GDSII File Generation: 
+Generate the final layout file for manufacturing.
+
+![image](https://github.com/user-attachments/assets/f629ae7a-2846-4ee0-b3f7-3ec13dc5c648)
+### RTL Synthesis: 
+Converting Register Transfer Level (RTL) code into a gate-level netlist.
+### Floorplanning & Placement: 
+Planning the chip layout and placing standard cells.
+### CTS & Routing: 
+Clock Tree Synthesis and interconnecting placed cells with metal layers.
+### Static Timing Analysis (STA): 
+Verifying timing closure.
+### Physical Verification: 
+Ensuring design rule compliance (DRC) and layout vs. schematic (LVS) correctness.
+### DFT(Design for Test): 
+it perform scan inserption, automatic test pattern generation, Test patterns compaction, Fault coverage, Fault simulation.After that physical implementation is done by OpenROAD app
+### Static Timing analysis(STA): 
+It involves the interconnect RC Extraction(DEF2SPEF) from the routed layout, followed by STA on OpenSTA(OpenROAD) tool. resulting report will shows the timing violations if any violations is there.
+### Physical Verification(DRC and LVS): 
+Magic is used for design Rules checking and SPICE Extraction from Layout. Magic and Netgen are used for LVS.
+
+Every time the netlist is modified.(CTS modifies the netlist and Post Placements optimization also modifies the netlist).So for that verification must be performed. The LCE(yosys) is used to formally confirm that the function did not change after modifying the netlist.
+
+# DAY 1 (LABS)
+##Understanding the use of various linux commands :
+###Open the LINUX Terminal (in desktop directory)
+
+#### Important LINUX Commands
+
+1. cd : It is used to change the current working directory.
+2. ls : It lists the contents of a directory.
+3.ls -ltr : It lists the contents of a directory in long format, sorted by modification time in reverse order (oldest first).
+4.ls --help: It displays a help message with a list of options and usage information for the "ls" command. Note : You can give any command name and then type "--help" to get info about that command.
+5.cd : Using this command we can move in both ways in the directory tree.
+6.clear: It clears the terminal screen.
+
+
+
 
 
 
