@@ -131,10 +131,10 @@ Every time the netlist is modified.(CTS modifies the netlist and Post Placements
 
 ## Now, moving to the work directory where all files related to the workshop are stored,use the follwoing commands
 
-cd Desktop 
-cd work/tools/ 
+''' cd Desktop
+cd work/tools/
 cd openlane_working_dir/
-cd openlane/
+cd openlane/ '''
 
 
 
