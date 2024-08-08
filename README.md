@@ -115,8 +115,8 @@ Magic is used for design Rules checking and SPICE Extraction from Layout. Magic 
 Every time the netlist is modified.(CTS modifies the netlist and Post Placements optimization also modifies the netlist).So for that verification must be performed. The LCE(yosys) is used to formally confirm that the function did not change after modifying the netlist.
 
 # DAY 1 (LABS)
-##Understanding the use of various linux commands :
-###Open the LINUX Terminal (in desktop directory)
+## Understanding the use of various linux commands :
+### Open the LINUX Terminal (in desktop directory)
 
 #### Important LINUX Commands
 
