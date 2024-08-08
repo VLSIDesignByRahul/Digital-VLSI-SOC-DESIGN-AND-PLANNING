@@ -130,11 +130,11 @@ Every time the netlist is modified.(CTS modifies the netlist and Post Placements
 #### 6.clear: It clears the terminal screen.
 
 ## Now, moving to the work directory where all files related to the workshop are stored,use the follwoing commands
-
-'cd Desktop'
-' cd work/tools/ '
-' cd openlane_working_dir/'
-' cd openlane/ 
+''' bach
+cd Desktop
+cd work/tools/ 
+cd openlane_working_dir/
+cd openlane/ 
 
 
 
