@@ -120,12 +120,12 @@ Every time the netlist is modified.(CTS modifies the netlist and Post Placements
 
 #### Important LINUX Commands
 
-1. cd : It is used to change the current working directory.
-2. ls : It lists the contents of a directory.
-3.ls -ltr : It lists the contents of a directory in long format, sorted by modification time in reverse order (oldest first).
-4.ls --help: It displays a help message with a list of options and usage information for the "ls" command. Note : You can give any command name and then type "--help" to get info about that command.
-5.cd : Using this command we can move in both ways in the directory tree.
-6.clear: It clears the terminal screen.
+#### 1. cd : It is used to change the current working directory.
+#### 2. ls : It lists the contents of a directory.
+#### 3.ls -ltr : It lists the contents of a directory in long format, sorted by modification time in reverse order (oldest first).
+#### 4.ls --help: It displays a help message with a list of options and usage information for the "ls" command. Note : You can give any command name and then type "--help" to get info about that command.
+#### 5.cd : Using this command we can move in both ways in the directory tree.
+#### 6.clear: It clears the terminal screen.
 
 
 
