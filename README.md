@@ -117,6 +117,8 @@ Every time the netlist is modified.(CTS modifies the netlist and Post Placements
 # DAY 1 (LABS)
 ## Understanding the use of various linux commands :
 ### Open the LINUX Terminal (in desktop directory)
+![image](https://github.com/user-attachments/assets/787cc954-f1f1-467c-8184-f26972754822)
+
 
 #### Important LINUX Commands
 
@@ -126,6 +128,14 @@ Every time the netlist is modified.(CTS modifies the netlist and Post Placements
 #### 4.ls --help: It displays a help message with a list of options and usage information for the "ls" command. Note : You can give any command name and then type "--help" to get info about that command.
 #### 5.cd : Using this command we can move in both ways in the directory tree.
 #### 6.clear: It clears the terminal screen.
+
+## Now, moving to the work directory where all files related to the workshop are stored,use the follwoing commands
+
+cd Desktop 
+cd work/tools/ 
+cd openlane_working_dir/
+cd openlane/
+
 
 
 
