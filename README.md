@@ -60,7 +60,21 @@ Definition: Predefined sequences of code or hardware configurations used to simp
 # Connecting All Components
 Core: Executes instructions and processes data. Die: Houses the core and other integrated components. Pad: Connects the die to external components via GPIO. GPIO: Interfaces with external devices, configured via macros. Bank: Organizes GPIO and other resources. Foundries: Manufacture the microcontroller with the integrated core, SRAM, DRAM, ADC, DAC, and IPs. IPs: Provide specialized functions like UART and SPI, integrated into the SoC. SRAM & DRAM: Store data temporarily for processing and operation. ADC & DAC: Enable analog signal processing and generation. This layout ensures a microcontroller can interact with the external world and perform complex tasks by integrating various components into a single, functional chip.
 
-# SKY L2 Introduction to RISC-V
+# SKY L1 Introduction to all components of an open-source digital ASIC design
+#RTL Design (Register Transfer Level Design):
+Definition: Describes the logic and behavior of a digital circuit using registers and the data transfers between them. Purpose: Defines the functionality and operations of the circuit.
+
+#EDA Tools (Electronic Design Automation Tools):
+Definition: Software tools used for designing, simulating, and verifying electronic systems and integrated circuits.
+
+#Open-Source Tools:
+QROad: Focuses on routing within digital ASIC designs. OpenROAD: Provides a comprehensive tool suite for placement, routing, and design rule checking. OpenLane: Offers an end-to-end RTL-to-GDSII flow, integrating with other open-source tools.
+
+#PDK (Process Design Kit):
+Definition: Contains files and information from semiconductor foundries describing the manufacturing process and design rules. Purpose: Ensures designs are manufacturable and provides parameters for accurate simulation.
+
+#Google Skywater 130nm PDK:
+Definition: An open-source PDK for the SkyWater 130nm process technology. Features: Includes libraries, design rules, and models specific to the 130nm technology node.
 
 
 
